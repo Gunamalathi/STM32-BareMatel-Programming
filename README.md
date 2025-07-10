@@ -60,12 +60,6 @@ STM32_BareMetal/
 
 ---
 
-## 📸 Screenshots
-
-> Add images or terminal outputs of your project here to make it visually appealing!
-
----
-
 ## 📞 Let's Connect
 
 🔗 [GitHub – Gunamalathi](https://github.com/Gunamalathi)  
