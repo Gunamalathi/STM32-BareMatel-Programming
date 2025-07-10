@@ -1,5 +1,3 @@
-# STM32-BareMatel-Programming
-This project demonstrates a simple LED blink using bare-metal programming (CMSIS only) on the STM32 Nucleo-F401RE development board. The code directly accesses STM32 peripheral registers without using HAL or any code generation tools.
 # 🚀 STM32 Bare-Metal Programming – Nucleo F401RE
 
 Welcome to my **Bare-Metal Embedded Journey!**  
@@ -18,16 +16,6 @@ This repository showcases my hands-on experience with **STM32F401RE** using **pu
 
 ---
 
-## ✅ What I Did (Day 1)
-
-- 🔘 Enabled GPIO clocks manually (`RCC->AHB1ENR`)
-- 🟢 Configured GPIO pins using `MODER`
-- 💡 Toggled onboard LED with `ODR`
-- ⏳ Created basic delay loop (no HAL_Delay)
-- ⚙️ Blinking PA5 using register logic
-
----
-
 ## 🎯 Learning Outcomes
 
 - ✔️ Deep understanding of **ARM Cortex-M4** architecture  
@@ -37,35 +25,32 @@ This repository showcases my hands-on experience with **STM32F401RE** using **pu
 
 ---
 
-## 📂 Project Structure
-STM32_BareMetal/
-├── CMSIS/ # ARM CMSIS core files
-├── Startup/ # Startup files and vector table
-├── Inc/ # Custom headers
-├── Src/ # Source files (main.c, delay.c, etc.)
-├── .ioc # STM32CubeMX config (if used)
-└── README.md
+🎯 Objective
+The goal of this repository is to build a strong foundation in bare-metal embedded systems programming using the STM32F401RE microcontroller. This journey involves directly accessing and configuring microcontroller hardware through memory-mapped registers without relying on HAL or abstraction layers.
 
----
+The project focuses on deep learning of microcontroller architecture, peripheral initialization, and low-level debugging by referring to the STM32 Reference Manual and CMSIS core. It serves as both a personal knowledge tracker and a reference for others exploring embedded development from the ground up.
 
-## 📌 Series Progress
+🛠️ Skills Acquired
+✅ Register-level programming using CMSIS
 
-| Day | Topic                          | Status |
-|-----|--------------------------------|--------|
-| 1   | GPIO Toggle & Delay            | ✅ Done |
-| 2   | GPIO Input & Button Press      | ⏳ Upcoming |
-| 3   | External Interrupts (EXTI)     | ⏳ Upcoming |
-| 4   | Timers for Precise Delay       | ⏳ Upcoming |
-| 5   | UART Register Programming      | ⏳ Upcoming |
+✅ Clock control and peripheral initialization (RCC)
 
----
+✅ GPIO configuration (MODER, ODR, IDR)
 
-## 📞 Let's Connect
+✅ LED control and button input handling
 
-🔗 [GitHub – Gunamalathi](https://github.com/Gunamalathi)  
-🔗 [LinkedIn (www.linkedin.com/in/guna-v/)]  
+✅ Understanding of ARM Cortex-M4 architecture and memory mapping
 
----
+✅ Using STM32CubeIDE for bare-metal development
+
+✅ Creating software delays without HAL
+
+✅ Reading and implementing from the STM32 Reference Manual
+
+✅ Clean and modular C programming structure for embedded systems
+
+✅ Project organization and version control using Git & GitHub
+
 
 
 
