@@ -16,15 +16,6 @@ This repository showcases my hands-on experience with **STM32F401RE** using **pu
 
 ---
 
-## 🎯 Learning Outcomes
-
-- ✔️ Deep understanding of **ARM Cortex-M4** architecture  
-- ✔️ Register-level control over RCC and GPIO  
-- ✔️ Hands-on practice with **CMSIS** and STM32 reference manuals  
-- ✔️ Developed confidence with **bare-metal development** in STM32CubeIDE  
-
----
-
 ## 🎯 Objective
 
 The goal of this repository is to build a strong foundation in bare-metal embedded systems programming using the STM32F401RE microcontroller. This journey involves directly accessing and configuring microcontroller hardware through memory-mapped registers without relying on HAL or abstraction layers.
