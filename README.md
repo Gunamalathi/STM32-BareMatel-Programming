@@ -25,12 +25,14 @@ This repository showcases my hands-on experience with **STM32F401RE** using **pu
 
 ---
 
-🎯 Objective
+## 🎯 Objective
+
 The goal of this repository is to build a strong foundation in bare-metal embedded systems programming using the STM32F401RE microcontroller. This journey involves directly accessing and configuring microcontroller hardware through memory-mapped registers without relying on HAL or abstraction layers.
 
 The project focuses on deep learning of microcontroller architecture, peripheral initialization, and low-level debugging by referring to the STM32 Reference Manual and CMSIS core. It serves as both a personal knowledge tracker and a reference for others exploring embedded development from the ground up.
 
-🛠️ Skills Acquired
+## 🛠️ Skills Acquired
+
 ✅ Register-level programming using CMSIS
 
 ✅ Clock control and peripheral initialization (RCC)
