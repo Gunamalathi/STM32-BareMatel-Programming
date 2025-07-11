@@ -1,4 +1,4 @@
-Day 2 - LED Toggle Using Button Input with Bare-Metal Programming on STM32F401RE
+# Day 2 - LED Toggle Using Button Input with Bare-Metal Programming on STM32F401RE
 
 ### 📄 **Description**
 
